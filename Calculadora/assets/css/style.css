@@ -1,0 +1,30 @@
+.container{
+    margin: 0 auto;
+    width: 80%;
+    background-color: bisque;
+    padding: 100px;
+}
+header{
+    background-color: salmon;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+    font-family: Roboto;
+}
+
+body{
+    font-family: Roboto;
+    font-size: 1.2em;
+    background-color: #f2f400;
+    background-image: url("/Calculadora/assets/imgs/fondo1.avif");
+}
+
+form{
+    display: ruby-base-container;
+}
+
+main{
+    margin:40px;
+}
