@@ -18,6 +18,14 @@ for (var i = 0; i < listaBotones.length; i++){
     listaBotones[i].addEventListener("click", cambiarColor);
 }
 
+const reset = document.getElementById('reset');
 
+reset.addEventListener('click', function(){
+    console.log('click');
+    
+    document.getElementById("caja").style.backgroundColor = "white";
+// });
+});
+//     
 
 

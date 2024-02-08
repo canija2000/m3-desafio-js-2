@@ -4,16 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Ejercicio 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Workbench&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
 <div>
-    <div>
-        <h2>
+    <div class="text-center my-5">
+        <h1 class="p-3" style="font-family: Workbench;">
             Paleta de colores
-        </h2>
-        <div style="display: flex;">
-            <div style="display: flex;flex-direction: column;">
+        </h1>
+        <div class="container mx-auto my-4" style="display: flex;">
+            <div class="" style="display: flex;flex-direction: column;">
                 <button id="btn-1" style="background-color: #e53e3e; width:100px;height: 100px" type="button">
                 </button>
                 <button id="btn-2" style="background-color: #dd6b20; width:100px;height: 100px" type="button">
@@ -27,13 +31,16 @@
                 <button id="btn-6" style="background-color: #d53f8c; width:100px;height: 100px" type="button">
                 </button>
             </div>
-            <div style="width: 500px;height: 600px">
+            <div  class= "container mx-auto"style="width: 500px;height: 600px">
                 <div id="caja" style="border:1px solid black;width: 100%;height: 100%">
                 </div>
             </div>
+            <button  class="btn btn-outline-secondary" id="reset" type="button">Reset </button>
+            </div>
         </div>
-    </div>
+        
 </div>
+
    <script src="assets/js/script2.js"></script>
 </body>
 

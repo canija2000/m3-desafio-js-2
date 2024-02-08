@@ -18,17 +18,17 @@ function validar(n,a,m){
     var validacion = true;
     var validacionNombre = /[a-zA-Z]/gim;
     if (validacionNombre.test(n) == false){
-        document.querySelector(".errorNombre").innerHTML = "Campo inválido, recuerda que no se aceptan números y es de caracter obligatorio";
+        document.querySelector(".errorNombre").innerHTML = "Campo inválido, recuerda que no se aceptan números y es de carácter obligatorio";
         validacion = false;
     }
     var validacionAsunto = /[a-zA-Z0-9]/gim;
     if (validacionAsunto.test(a) == false){
-        document.querySelector(".errorAsunto").innerHTML = "Campo inválido, recuerda que no se aceptan caracteres especiales y es de caracter obligatorio";
+        document.querySelector(".errorAsunto").innerHTML = "Campo inválido, recuerda que no se aceptan carácteres especiales y es obligatorio";
         validacion = false;
     }
     var validacionMensaje = /[a-zA-Z0-9]/gim;
     if (validacionMensaje.test(m) == false){
-        document.querySelector(".errorMensaje").innerHTML = "Campo inválido, recuerda que no se aceptan caracteres especiales y es de caracter obligatorio";
+        document.querySelector(".errorMensaje").innerHTML = "Campo inválido, recuerda que no se aceptan carácteres especiales y es obligatorio";
         validacion = false;
     }
     return validacion;

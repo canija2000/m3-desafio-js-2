@@ -7,24 +7,24 @@
     <title>Ejercicio 1</title>
 </head>
 
-<body>
-    <div>
+<body class="row" style="background-color: #f5d5f0;">
+    <div class="col my-5 align-items-center">
         <div style="width: 40%;margin: 0 auto">
-            <h2>
+            <h1 class="text-center mb-5">
                 Escríbenos !!!
-            </h2>
+            </h1>
             <div class="resultado" style="color:green;font-style: italic">
             </div>
             <form id="formulario">
                 <div>
-                    <div style="display: flex;flex-direction: column;">
+                    <div style="display: flex;flex-direction: column;" class="mb-4">
                         <label>
                             Nombre completo
                         </label>
-                        <input id="nombre" type="text">
+                        <input id="nombre" type="text" >
                         <p class="errorNombre" style="color:red;font-style: italic;"></p>
                     </div>
-                    <div style="display: flex;flex-direction: column;">
+                    <div style="display: flex;flex-direction: column;" class="mb-4">
                         <label>
                             Asunto
                         </label>
@@ -32,15 +32,15 @@
                         <p class="errorAsunto" style="color:red;font-style: italic;"></p>
                     </div>
                 </div>
-                <div style="display: flex;flex-direction: column;">
+                <div style="display: flex;flex-direction: column;" class="mb-4">
                     <label>
                         Mensaje
                     </label>
-                    <textarea id="mensaje"></textarea>
+                    <textarea id="mensaje" rows="10"></textarea>
                     <p class="errorMensaje" style="color:red;font-style: italic;"></p>
                 </div>
                 <div>
-                    <button id="botton" type="submit" class="btn btn-primary">
+                    <button id="botton" type="submit" class="btn btn-success">
                         Envíar mensaje
                     </button>
                 </div>
